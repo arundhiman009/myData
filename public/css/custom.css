@@ -1,0 +1,100 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.referral-info {
+    /* background-image: url('../assets/images/referral_bg.jpg'); */
+    /* background-image: url('../assets/images/download-banner.png'); */
+    background-size: cover;
+    height: 80vh;
+}
+.small-box.bg-dark.member {
+    height: 89%;
+}
+.small-box-footer.member.text-white {
+    position: absolute;
+   
+    margin-top: 23px;
+    width: 100%;
+}
+.img-overlay {
+    /* background-color: #000000bf; */
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+    color: #FFF;
+}
+.img-overlay p, .img-overlay h5{
+    color: #000 !important;
+}
+.overlay-container {
+    /* background: #222222; */
+    background-color: #00bfef !important;
+    margin: 0px auto;
+    padding: 11px;
+    box-shadow: 0 0 10px #cccccc ;
+}
+.share-image{
+    text-align: center;
+}
+.share-image img{
+    width: 20%;
+}
+
+.content{
+    background-color: #f4f6f9;
+}
+
+
+.share-links p{
+    position: relative;
+}
+.share-links p::before{
+    content: " ";
+    position: absolute;
+    width: 45%;
+    height: 2px;
+    background: #e1e1e1;
+    left: 0;
+    top: 50%;
+}
+.share-links p::after{
+    content: " ";
+    position: absolute;
+    width: 45%;
+    height: 2px;
+    background: #e1e1e1;
+    top: 50%;
+    right: 0;
+}
+.share-content{
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #cccccc;    
+}
+.top-header-content, 
+.share-body-content{
+    padding:15px;
+}
+.top-header-content p{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+.top-header-content h2{
+    color:#e3c02b;
+}
+.share-link-btn{
+    display: block;
+    width: 100%;
+    border-radius: 0;
+}
+.share-link-input{
+    border-radius: 0;
+    border: 1px solid #e3c02b;
+    border-bottom: 0;
+}
+@media screen and (max-width: 575px) {
+    .share-content{
+        margin: 0;
+    }
+}
